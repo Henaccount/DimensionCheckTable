@@ -16,7 +16,7 @@ public class DimensionTool
 
         // Prompt user to select dimensions
         PromptSelectionOptions options = new PromptSelectionOptions();
-        options.MessageForAdding = "Select dimensions with tolerances:";
+        options.MessageForAdding = "Select dimensions:";
         PromptSelectionResult result = ed.GetSelection(options);
 
         if (result.Status != PromptStatus.OK)
