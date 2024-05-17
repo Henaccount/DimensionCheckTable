@@ -1,4 +1,5 @@
 # DimensionCheckTable - AutoCAD Sample Code - Use at own risk
+See also attached <a href="DimensionCheckTable.mp4">video</a>
 Given a layer named "DimensionsWithBalloons" with a table on it and some dimensions in the drawing area, you can call the command "DimensionCheckTable" and you will be prompted to select dimensions.
 After pressing enter, the following things have been achieved:
 - copies of the selected dimensions are created on the layer "DimensionsWithBalloons"
